@@ -12,3 +12,15 @@ body {
 	height: 100%;margin: 0;
 	padding: 0;
 }
+
+/* A: Add the canvas and load the cursor image */
+.canvas {
+	width: 50%;
+	height: 500px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cursor:before {
+	content: "";
+	background-image: url(../images/cursor.png);
+}
