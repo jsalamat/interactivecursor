@@ -29,3 +29,19 @@ body {
 body.no-cursor {
 	cursor: none;
 }
+
+.cursor.active {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	margin-top: -5px;
+	margin-left: -32px;
+	background-image: url(../images/cursor.png);
+	background-color: transparent;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	/* C: Mouse down action */
+	transform-origin: 50% 0%;
+	transition: transform .1s ease;
+}
