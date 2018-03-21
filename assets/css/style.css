@@ -24,3 +24,8 @@ body {
 	content: "";
 	background-image: url(../images/cursor.png);
 }
+
+/* B: Remove the default cursor and display the new one */
+body.no-cursor {
+	cursor: none;
+}
