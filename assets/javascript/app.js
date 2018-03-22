@@ -11,3 +11,9 @@ document.addEventListener('DOMContentLoaded',
 // Listen to mouse
 // - get the new cursor following and rect to moue does
 // - start listen to mouse events
+// Inside the DOMContentLoaded callback 
+function mouseListeners();
+// Anywhere outside
+function mouseListeners() {
+	
+}
