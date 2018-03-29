@@ -9,11 +9,13 @@ document.addEventListener('DOMContentLoaded',
 });
 
 // Listen to mouse
-// - get the new cursor following and rect to moue does
+// - get the new cursor following and react to mouse does
 // - start listen to mouse events
 // Inside the DOMContentLoaded callback 
 function mouseListeners();
 // Anywhere outside
 function mouseListeners() {
-	
+	document.addEventListener('mousemove',onMouseMove, false);
+	document.addEventListener('mousedown',onMouseDown, false);
+	document.addEventListener('mouseup',onMouseUp, false);
 }
