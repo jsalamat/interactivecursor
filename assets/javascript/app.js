@@ -19,3 +19,7 @@ function mouseListeners() {
 	document.addEventListener('mousedown',onMouseDown, false);
 	document.addEventListener('mouseup',onMouseUp, false);
 }
+
+function onMouseMove(e) {}
+function onMouseDown(e) {}
+function onMouseUp(e) {}
