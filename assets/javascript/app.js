@@ -20,6 +20,12 @@ function mouseListeners() {
 	document.addEventListener('mouseup',onMouseUp, false);
 }
 
-function onMouseMove(e) {}
+function onMouseMove(e) {
+	updateCursorLocation(e.clientX, e.clientY);
+	updateCursorAngle(e.clientX);
+}
+
 function onMouseDown(e) {}
+
 function onMouseUp(e) {}
+
