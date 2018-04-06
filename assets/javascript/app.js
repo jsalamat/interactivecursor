@@ -29,3 +29,6 @@ function onMouseDown(e) {}
 
 function onMouseUp(e) {}
 
+const canvasRect = canvas.getBoundingClientRect();
+const canvasWidth = canvas.offsetWidth;
+
