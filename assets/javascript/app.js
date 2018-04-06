@@ -32,3 +32,4 @@ function onMouseUp(e) {}
 const canvasRect = canvas.getBoundingClientRect();
 const canvasWidth = canvas.offsetWidth;
 
+canvasCenter = canvasRect.left + (canvasWidth/2);
