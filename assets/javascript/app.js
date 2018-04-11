@@ -37,4 +37,14 @@ canvasCenter = canvasRect.left + (canvasWidth/2);
 function updateCursorAngle(posX) {
 	// Work out how far the mouse is away from the center
 	let diff = canvasCenter - posX;
+
+	// Using a wide range, set the Z rotation
+	if (diff > -150 && diff < 150) {
+		rotateZ = Math.round((diff/3));
+	}
+	else if (diff < -150) {
+		// Max negative rotation
+		rotateZ = -50;
+	}
+	else
 }
