@@ -33,3 +33,8 @@ const canvasRect = canvas.getBoundingClientRect();
 const canvasWidth = canvas.offsetWidth;
 
 canvasCenter = canvasRect.left + (canvasWidth/2);
+
+function updateCursorAngle(posX) {
+	// Work out how far the mouse is away from the center
+	let diff = canvasCenter - posX;
+}
